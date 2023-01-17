@@ -1,15 +1,45 @@
+<html>
+<body>
+<h1> Kleine Programmieraufgabe Primzahlenfinder- Jakob Burges  <h1>
 
-<!-- saved from url=(0063)http://fbwallinone.th-brandenburg.de/~burges/PrimzahlFinder.php -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
-<h1> Kleine Programmieraufgabe Primzahlenfinder- Jakob Burges  </h1><h1>
-
-<form action="http://fbwallinone.th-brandenburg.de/~burges/PrimzahlFinder.php" method="post">
+<form action="PrimzahlFinder.php" method="post">
 Von: <input type="int" name="von"><br>
 Bis: <input type="int" name="bis"><br>
 <input type="submit">
 </form>
 
- 
+<?php 
+function Primzahl( $nummer ) 
+{ 
 
+for( 
+$zahlen = 2; 
+$zahlen*$zahlen <= $nummer; 
+$zahlen++ ) 
+       
+if( !($nummer % $zahlen) ) 
+return FALSE; 
+return TRUE; 
+} 
 
-</h1></body></html>
+$anfang =$_POST['von']; 
+$ende =$_POST['bis']; 
+
+for
+(
+$zahlen = $anfang; 
+$zahlen<$ende; 
+$zahlen++
+) 
+{ 
+if
+(Primzahl($zahlen) == TRUE) 
+{ 
+echo "$zahlen\n"; 
+} 
+} 
+
+?> 
+
+</body>
+</html>
