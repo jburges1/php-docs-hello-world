@@ -2,7 +2,7 @@
 <body>
 <h1 style="color: #A00000">Bu&szlig;geld- und Punkterechner f&uuml;r Geschwindigkeits&uuml;berschreitung f&uuml;r Flensburg</h1>
 
-<form name="Bu&szlig;geld- und Punkterechner f&uuml;r Flensburg" method="get">
+<form name="index.php" method="get">
 
 <h2>Geschwindigkeit in km/h</h2>
 Gefahrene Geschwindigkeit: <input type="int" name="geschwindigkeit"><br>
