@@ -2,7 +2,7 @@
 <body>
 <h1> Kleine Programmieraufgabe Primzahlenfinder- Jakob Burges  <h1>
 
-<form action="PrimzahlFinder.php" method="post">
+<form action="index.php" method="post">
 Von: <input type="int" name="von"><br>
 Bis: <input type="int" name="bis"><br>
 <input type="submit">
